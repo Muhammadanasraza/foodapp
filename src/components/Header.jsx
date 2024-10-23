@@ -84,7 +84,7 @@ export default function Header() {
                             Food Hub
                         </span>
                     </a>
-                    <div className="flex items-center justify-between md:order-2 space-x-5 md:space-x-5  rtl:space-x-reverse">
+                    <div className="flex items-center px-3 justify-between md:order-2 space-x-5 md:space-x-5  rtl:space-x-reverse">
                         <div>
                             <Link to={"/addtocart"}>
                                 <IconButton className="" aria-label="cart">
