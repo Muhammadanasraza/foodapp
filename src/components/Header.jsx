@@ -160,7 +160,7 @@ export default function Header() {
 
                                     onClick={() => setMenu("home")}
                                     href="#"
-                                    className={`${menu === "home" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                                    className={`${menu === "home" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400  dark:hover:text-white md:dark:hover:bg-transparent `}
                                     aria-current="page"
                                 >
                                     Home
@@ -170,7 +170,7 @@ export default function Header() {
                                 <a href={"#explore-menu"}
                                     onClick={() => setMenu("menu")}
 
-                                    className={`${menu === "menu" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                                    className={`${menu === "menu" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400   dark:hover:text-white md:dark:hover:bg-transparent `}
                                 >
                                     Menu
                                 </a>
@@ -179,7 +179,7 @@ export default function Header() {
                                 <a href="#mobile-app"
                                     onClick={() => setMenu("mobile-app")}
 
-                                    className={`${menu === "mobile-app" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                                    className={`${menu === "mobile-app" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent  md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400  dark:hover:text-white md:dark:hover:bg-transparent `}
                                 >
                                     Mobile App
                                 </a>
@@ -201,7 +201,7 @@ export default function Header() {
                                 <a
                                     onClick={() => setMenu("contact")}
                                     href="#contact"
-                                    className={`${menu === "contact" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700`}
+                                    className={`${menu === "contact" ? "active" : ""} block py-2 px-3 text-gray-900  hover:bg-gray-100 md:hover:bg-transparent md:hover:text-orange-400 md:p-0 dark:text-white md:dark:hover:text-orange-400   dark:hover:text-white md:dark:hover:bg-transparent `}
                                 >
                                     Contact Us
                                 </a>
