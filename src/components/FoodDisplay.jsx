@@ -13,7 +13,7 @@ const  FoodDisplay = ({ category }) => {
 
 
         <div className=" w-10/12 mx-auto transition">
-            <div className="flex flex-col text-start mx-auto max-sm:px-3 md:px-5">
+            <div className="flex flex-col text-start mx-auto max-sm:px-2 md:px-5">
                 <a href="#explore-menu" className="text-3xl font-bold my-3 ">Food Display</a>
                 <p className="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam, explicabo excepturi ducimus libero modolorem.</p>
             </div>
