@@ -84,12 +84,12 @@ export default function Procced() {
 
         <>
 
-            <div className="font-[sans-serif] w-11/12 mx-auto  bg-white ">
+            <div className="font-[sans-serif] w-fit mx-auto  bg-white ">
                 <div className="flex justify-center  max-sm:flex-col gap-12 max-lg:gap-4 h-full">
 
-                    <div className="max-w-4xl w-full h-max rounded-md px-4 py-8 sticky top-0">
-                        <h2 className="text-4xl flex justify-center mx-auto border-b-4  w-96 font-bold text-gray-800">Complete your order</h2>
-                        <form className="mt-8" onSubmit={handleToSendData}>
+                    <div className="max-w-2xl w-full h-max rounded-md  py-8 sticky top-0">
+                        <h2 className="text-3xl flex justify-center mx-auto border-b-4  w-96 font-bold text-gray-800">Complete your order</h2>
+                        <form className="mt-8 px-3" onSubmit={handleToSendData}>
                             <div>
                                 <h3 className="text-base text-gray-800 mb-4">Personal Details</h3>
                                 <div className="grid md:grid-cols-2 gap-4">
@@ -184,7 +184,7 @@ export default function Procced() {
                     </div>
 
                 </div>
-                <div className="bg-gray-50 rounded-xl mx-auto  justify-center p-6 w-96  mb-8 max-lg:max-w-xl ">
+                <div className="bg-gray-50 rounded-xl mx-auto   justify-center p-3 w-96  mb-8 max-lg:max-w-xl ">
                     <div className="flex items-center justify-between w-full mb-6">
                         <p className="font-normal text-xl leading-8 text-gray-400">Sub Total</p>
                         <h6 onChange={(e) => setSubTotal(e.target.value)} className="font-semibold text-xl leading-8 text-gray-900">
