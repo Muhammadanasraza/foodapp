@@ -69,7 +69,7 @@ export default function Header() {
 
 
         <>
-            <nav className="bg-white border-gray-200 ">
+            <nav className="bg-white mx-auto border-gray-200 ">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-4">
                     <a
                         href="#"

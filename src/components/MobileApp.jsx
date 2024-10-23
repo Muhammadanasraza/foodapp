@@ -14,7 +14,7 @@ export default function Mobile_app() {
                 <p className="text-4xl font-bold py-3 ">
                     Food Hub App
                 </p>
-                <div className="flex w-96 justify-between my-16 mx-auto ">
+                <div className="flex w-80 justify-between my-16 mx-auto ">
                     <img className="w-36  transition"  src={assets.play_store} alt="" />
                     <img className="w-36" width={150} src={assets.app_store}alt="" />
                 </div>

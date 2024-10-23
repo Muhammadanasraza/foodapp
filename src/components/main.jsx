@@ -8,7 +8,7 @@ export default function Main() {
     return (
         <>
             <section
-                className="relative my-7 h-4/6 bg-cover bg-center max-sm:w-11/12   w-10/12 mx-auto rounded-xl bg-no-repeat"
+                className="relative my-7 h-full bg-cover bg-center max-sm:w-11/12   w-10/12 mx-auto rounded-xl bg-no-repeat"
                 style={{ backgroundImage: `url(${assets.header_img})` }}
             >
                 <div className="absolute inset-0  bg-opacity-50" />
