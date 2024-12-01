@@ -9,7 +9,7 @@ export default function Main() {
         <>
             <section
                 className="relative my-7 h-full bg-cover bg-center max-sm:w-11/12   w-10/12 mx-auto rounded-xl bg-no-repeat"
-                style={{ backgroundImage: `url(${assets.header_img})` }}
+                style={{ backgroundImage: `url(${assets.imageForMain})` }}
             >
                 <div className="absolute inset-0  bg-opacity-50" />
                 <div className="container mx-auto flex flex-col items-center justify-center min-h-screen py-12 px-4 relative z-10">

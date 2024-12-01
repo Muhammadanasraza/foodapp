@@ -117,7 +117,7 @@ export default function Footer() {
                                 className="text-gray-600 ml-1"
                                 target="_blank"
                             >
-                                @anasraza
+                                @muhammadanasraza
                             </a>
                         </p>
                         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
