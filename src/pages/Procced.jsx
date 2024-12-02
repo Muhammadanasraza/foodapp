@@ -87,7 +87,7 @@ export default function Procced() {
             <div className="font-[sans-serif] w-fit mx-auto  bg-white ">
                 <div className="flex justify-center  max-sm:flex-col gap-12 max-lg:gap-4 ">
 
-                    <div className="max-w-2xl w-full h-max rounded-md  py-8 sticky top-0">
+                    <div className="max-w-1xl w-full h-max rounded-md  py-8 sticky top-0">
                         <h2 className="text-3xl flex justify-center mx-auto border-b-4  w-96 font-bold text-gray-800">Complete your order</h2>
                         <form className="mt-8 px-3" onSubmit={handleToSendData}>
                             <div>
