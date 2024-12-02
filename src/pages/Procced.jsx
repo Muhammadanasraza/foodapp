@@ -88,7 +88,7 @@ export default function Procced() {
                 <div className="flex justify-center  max-sm:flex-col gap-12 max-lg:gap-4 ">
 
                     <div className="max-w-1xl w-full h-max rounded-md  py-8 sticky top-0">
-                        <h2 className="text-3xl flex justify-center mx-auto border-b-4  w-96 font-bold text-gray-800">Complete your order</h2>
+                        <h2 className="text-3xl flex justify-center mx-auto border-b-4  w-auto font-bold text-gray-800">Complete your order</h2>
                         <form className="mt-8 px-3" onSubmit={handleToSendData}>
                             <div>
                                 <h3 className="text-base text-gray-800 mb-4">Personal Details</h3>
@@ -184,14 +184,14 @@ export default function Procced() {
                     </div>
 
                 </div>
-                <div className="bg-gray-50 rounded-xl mx-auto   justify-center p-3 w-screen  mb-8 max-lg:max-w-xl ">
-                    <div className="flex items-center justify-between w-full mb-6">
+                <div className="bg-gray-50 rounded-xl mx-auto  justify-center  mb-8  ">
+                    <div className="flex items-center justify-between p-2 w-full mb-6">
                         <p className="font-normal text-xl leading-8 text-gray-400">Sub Total</p>
                         <h6 onChange={(e) => setSubTotal(e.target.value)} className="font-semibold text-xl leading-8 text-gray-900">
                             ${getTotalCartAmount()}
                         </h6>
                     </div>
-                    <div className="flex items-center justify-between w-full pb-6 border-b border-gray-200">
+                    <div className="flex items-center justify-between  p-2 w-full pb-6 border-b border-gray-200">
                         <p className="font-normal text-xl leading-8 text-gray-400">
                             Delivery Charge
                         </p>
@@ -199,7 +199,7 @@ export default function Procced() {
                             ${getTotalCartAmount() === 0 ? 0 : 2}
                         </h6>
                     </div>
-                    <div className="flex items-center justify-between w-full py-6">
+                    <div className="flex items-center justify-between  p-2 w-full py-6">
                         <p className="font-manrope font-medium text-2xl leading-9 text-gray-900">
                             Total
                         </p>
