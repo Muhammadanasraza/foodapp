@@ -184,7 +184,7 @@ export default function Procced() {
                     </div>
 
                 </div>
-                <div className="bg-gray-50 rounded-xl mx-auto   justify-center p-3 w-96  mb-8 max-lg:max-w-xl ">
+                <div className="bg-gray-50 rounded-xl mx-auto   justify-center p-3 w-screen  mb-8 max-lg:max-w-xl ">
                     <div className="flex items-center justify-between w-full mb-6">
                         <p className="font-normal text-xl leading-8 text-gray-400">Sub Total</p>
                         <h6 onChange={(e) => setSubTotal(e.target.value)} className="font-semibold text-xl leading-8 text-gray-900">
