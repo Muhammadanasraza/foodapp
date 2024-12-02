@@ -84,7 +84,7 @@ export default function Procced() {
 
         <>
 
-            <div className="font-[sans-serif] w-fit mx-auto  bg-white ">
+            <div className="font-[sans-serif] container mx-auto  bg-white ">
                 <div className="flex justify-center  max-sm:flex-col gap-12 max-lg:gap-4 ">
 
                     <div className="max-w-1xl w-full h-max rounded-md  py-8 sticky top-0">
